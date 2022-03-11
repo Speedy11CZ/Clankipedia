@@ -2,13 +2,13 @@
 title: Getting Started
 description: 
 published: true
-date: 2022-03-05T15:52:06.459Z
+date: 2022-03-11T12:07:24.083Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-04T23:40:50.679Z
 ---
 
-# 👋 Getting Started
+# Getting Started
 
 Welcome to the PlayStation 2 and PlayStation 3 reverse engineering wiki. Here you will find topics such as networking and modding.
 
