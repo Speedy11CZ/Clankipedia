@@ -1,8 +1,8 @@
 ---
-title: Getting Started
+title: Clankipedia
 description: 
 published: true
-date: 2022-03-11T12:07:24.083Z
+date: 2022-03-11T13:26:54.406Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-04T23:40:50.679Z
