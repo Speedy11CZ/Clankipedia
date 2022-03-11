@@ -2,7 +2,7 @@
 title: Contributing
 description: 
 published: true
-date: 2022-03-11T12:06:23.662Z
+date: 2022-03-11T12:09:04.569Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-11T12:06:23.662Z
@@ -32,5 +32,6 @@ Here are some instructions and recommendations for quality contributions.
 3. If you quote some content, it is a good idea to add the source or a link.
 	> The PlayStation 2 (PS2) is a home video game console developed and marketed by Sony Computer Entertainment. It was first released in Japan on March 4, 2000, in North America on October 26, 2000, in Europe on November 24, 2000, and in Australia on November 30, 2000. It is the successor to the original PlayStation, as well as the second installment in the PlayStation brand of consoles. As a sixth-generation console, it competed with Sega's Dreamcast, Nintendo's GameCube, and Microsoft's Xbox. ([from Wikipedia](https://en.wikipedia.org/wiki/PlayStation_2))
 4. Add some photos to your posts that are relevant to the topic.
+5. If this is an important post, contact `Speedy11CZ#0001` on discord to place the article in the navigation.
 
 **If you've read this far, you're ready to contribute. :wink:**
