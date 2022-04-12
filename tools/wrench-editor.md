@@ -2,7 +2,7 @@
 title: Wrench Editor
 description: Wrench is a level editor and viewer for the PS2 Ratchet & Clank games working from Ratchet & Clank 1 to Ratchet & Clank: Deadlocked. Created by chaoticgd.
 published: true
-date: 2022-04-12T09:42:21.548Z
+date: 2022-04-12T16:38:59.733Z
 tags: level editor, modding
 editor: markdown
 dateCreated: 2022-03-05T15:43:32.492Z
@@ -31,7 +31,7 @@ Features currently include:
 # Installation
 Installing wrench is sometime a bit difficult, including all Visual Studio versions and complementary plugin software, people who don't already use Visual Studio are of course a bit lost.
 
-**N.B: This software is only buildable on Windows yet.**
+**N.B: This software is only buildable on Linux and Windows. No MacOS release date yet.**
 
 ## First step
 Install [Visual Studio](https://visualstudio.microsoft.com/downloads/) 2017, 2019 or 2022 _**Community Edition**_.
@@ -50,12 +50,15 @@ When the download is done, launch the version and check if CMake is installed in
 ## Fourth step
 Clone or download [Wrench Editor](https://github.com/chaoticgd/wrench/) on GitHub. Put it in a folder where you'll easily find it again.
 
+### For Newbies (NOT RECOMMENDED)
 [![github_clone.png](/github_clone.png "Go on the Chaoticgd's repo")](https://github.com/chaoticgd/wrench/)
 
 - You can take one of these solution:
   1) This is to clone the repo and stay updated (you will have to rebuild each new version). It works with **[GitHub Desktop](https://desktop.github.com/ "https://desktop.github.com/")**
   2) This is to clone the repo and stay update BUT will open directly **Visual Studio** instead of **GitHub Desktop**.
-  3) This will just give you a copy of the current version of the repo. **We will take this button for example here**. Of course, it's a zip, so you'll unzip it with **[7-Zip](https://www.7-zip.org/download.html "https://www.7-zip.org/download.html")**.
+  3) Just do not use the zip.
+  
+**However, if you use this technic, you'll have to download each module separately. So yeah, it's heavily recommended to use this technic just down there.**
 
 ### HEAVILY RECOMMENDED
 Go into a folder, **right click**>**open terminal here** and execute `git clone https://github.com/chaoticgd/wrench.git --recursive`.
