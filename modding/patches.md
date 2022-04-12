@@ -2,7 +2,7 @@
 title: Patches
 description: Here's a "tutorial" about how works patches and how to use them  when it is possible.
 published: true
-date: 2022-04-12T15:44:06.847Z
+date: 2022-04-12T15:52:34.202Z
 tags: information, modding, online, patches
 editor: markdown
 dateCreated: 2022-04-12T10:04:47.681Z
@@ -38,3 +38,5 @@ So globally, this technic work for these modifications[:](https://www.youtube.co
 
 ## How can I install a patch ?
 To install a patch, you need first a **custom firmware** or a **hybrid firmware**. The most famous are **[Cobra CFW](https://www.psx-place.com/threads/ps3xploit-flash-writer-aka-cfw-installer-supports-all-ps3-fat-models-most-slim-models.16876/)** ([here](https://www.youtube.com/watch?v=QldjWRGH0wA&ab_channel=MrMario2011) is a tutorial), and **[HEN HFW](http://ps3xploit.com/)** ([here](https://www.youtube.com/watch?v=xGS_Ryx_7r8&ab_channel=MrMario2011) is a tutorial)
+
+When you have finally your **CFW** (for **FAT**) or **HFW** (for **SLIM** and **SUPERSLIM**) on your PS3, you need to put your patch on an **USB key FORMATTED in FAT32** and also the `.pkg`{.orange-code} of **[multiMAN](https://store.brewology.com/ahomebrew.php?brewid=24)** (latest version for **Cobra CFW** and unoffical one for **HEN**, then plug the **USB key** into your console.
