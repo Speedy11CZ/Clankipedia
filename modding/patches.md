@@ -2,7 +2,7 @@
 title: Patches
 description: Here's a "tutorial" about how works patches and how to use them  when it is possible.
 published: true
-date: 2022-04-12T15:52:34.202Z
+date: 2022-04-12T16:16:28.964Z
 tags: information, modding, online, patches
 editor: markdown
 dateCreated: 2022-04-12T10:04:47.681Z
@@ -37,6 +37,14 @@ So globally, this technic work for these modifications[:](https://www.youtube.co
 * `Packages` (`.pkg`{.orange-code}) files - These are archives too, they can contain **voicelines**, **environnement sounds**, **weapons sounds**, **game musics**...
 
 ## How can I install a patch ?
-To install a patch, you need first a **custom firmware** or a **hybrid firmware**. The most famous are **[Cobra CFW](https://www.psx-place.com/threads/ps3xploit-flash-writer-aka-cfw-installer-supports-all-ps3-fat-models-most-slim-models.16876/)** ([here](https://www.youtube.com/watch?v=QldjWRGH0wA&ab_channel=MrMario2011) is a tutorial), and **[HEN HFW](http://ps3xploit.com/)** ([here](https://www.youtube.com/watch?v=xGS_Ryx_7r8&ab_channel=MrMario2011) is a tutorial)
+To install a patch, you need first a **Custom FirmWare** or a **Hybrid FirmWare**. The most famous are **[Cobra CFW](https://www.psx-place.com/threads/ps3xploit-flash-writer-aka-cfw-installer-supports-all-ps3-fat-models-most-slim-models.16876/)** ([here](https://www.youtube.com/watch?v=QldjWRGH0wA&ab_channel=MrMario2011) is a tutorial), and **[HEN HFW](http://ps3xploit.com/)** ([here](https://www.youtube.com/watch?v=xGS_Ryx_7r8&ab_channel=MrMario2011) is a tutorial)
 
 When you have finally your **CFW** (for **FAT**) or **HFW** (for **SLIM** and **SUPERSLIM**) on your PS3, you need to put your patch on an **USB key FORMATTED in FAT32** and also the `.pkg`{.orange-code} of **[multiMAN](https://store.brewology.com/ahomebrew.php?brewid=24)** (latest version for **Cobra CFW** and unoffical one for **HEN**, then plug the **USB key** into your console.
+Now, go to `⭐ Package Manager > 📁 Install Package File > 📁 Package Directory` and install your **multiMAN** package file.
+Launch **multiMAN** and go to the file explorer.
+go to `/dev_usb000/`{.orange-code}, search your `patch_XX.psarc`{.orange-code} file, copy it, and then go to `/dev_hdd000/game/`{.orange-code} and now, search for the code of the game your modding, for example, the **European Disc** of **Ratchet & Clank: Full Frontal Assault** *(Q-Force)* code is `BCES001954`, so the dir is `/dev_hdd000/game/BCES001954/`{.orange-code}, etc...
+Into the game folder, find `USRDIR/data`{.orange-code} folder, and drop the file in.
+For example, for our patch it should look like this: `/dev_hdd000/game/BCES001954/USRDIR/data/patch_06.psarc`{.orange-code}
+
+# ⚠️ - Warning!
+Before launching your game, disable the game update checking into your **CFW** (not sure for HFW, please check), or your update will be deleted and overwrote by an older one. If the game you mod is online, **be extremely careful** and disable the **Sony PSN Logging** on your **CFW**, they are sent to Sony and sometime it happens that players get banned... It's rare but be careful.
