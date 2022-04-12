@@ -2,7 +2,7 @@
 title: Patches
 description: Here's a "tutorial" about how works patches and how to use them  when it is possible.
 published: true
-date: 2022-04-12T14:03:07.791Z
+date: 2022-04-12T14:28:24.361Z
 tags: information, modding, online, patches
 editor: markdown
 dateCreated: 2022-04-12T10:04:47.681Z
@@ -15,13 +15,16 @@ Into the **game root folder** you should see something like `USRDIR`. This folde
 
 ## Where can I find it ?
 For **Ratchet & Clank** games, the patches are only available **natively** on **Ratchet & Clank: Full Frontal Assault**, **Ratchet & Clank: All 4 One** and **Ratchet & Clank: Into the Nexus**.
-The **patches** are available in the **data** subfolder (`NPUA00001\USRDIR\data`) for **Ratchet & Clank** games, the patches are globally `patch_XX.psarc`{.orange-code} (`XX` are numbers from `00` to `99`).
+The **patches** are available in the **data** subfolder (`NPUA00001\USRDIR\data`{.orange-code}) for **Ratchet & Clank** games, the patches are globally `patch_XX.psarc`{.orange-code} (`XX` are numbers from `00` to `99`).
 **For more informations on the [PSArc files](./modding/filesformat#psarc), go on its page.**
-The `.psarc` archives contain only files which have to change. It means that the `patch_XX.psarc` archive make every files that are into it overwrite `global_uncached.psarc` archive files.
+The `.psarc`{.orange-code} archives contain only files which have to change. It means that the `patch_XX.psarc`{.orange-code} archive make every files that are into it overwrite `global_uncached.psarc`{.orange-code} archive files.
 
 ## How's the patch architecture ?
 First, you have to understand that the patch come from the **USRDIR** directly. You'll have to think relative.
 For example, if I want to modify the **jungle_ruin** level in **FFA**, I'll have to put my modifications like this:
-`patch_06\built\levels\jungle_ruin\` <= *my modified files in here.* - It's the same thing into **USRDIR**:
-`USRDIR\built\levels\jungle_ruin\` <= *here, there's `level_uncached.psarc` for example*
+`patch_06\built\levels\jungle_ruin\`{.orange-code} <= *my modified files in here.* - It's the same thing into **USRDIR**:
+`USRDIR\built\levels\jungle_ruin\`{.orange-code} <= *here, there's `level_uncached.psarc`{.orange-code} for example*
+
+## What can I change into ?
+Technically, almost everything. Adding a map is simple and hard, duplicate a map into your patch folder, for example like this: `patch_06\built\levels\my_new_level`{.orange-code}. Do not forget that you won't be able to load that level without coding. Anyway, you can now modify the level with the **[LombaxToes Editor](./tools/lteditor)**.
 
