@@ -2,7 +2,7 @@
 title: Patches
 description: All you need to know about modding using patch system of Ratchet & Clank (FFA to ItN)
 published: true
-date: 2022-04-12T16:31:09.286Z
+date: 2022-04-12T16:32:17.387Z
 tags: information, modding, online, patches
 editor: markdown
 dateCreated: 2022-04-12T10:04:47.681Z
@@ -30,7 +30,7 @@ Technically, almost everything. Adding a map is simple and hard, duplicate a map
 You can also change code, by replacing old `.lc` files with new `.lc` files. The code have to respect the functions used in other `lua` files.
 To change script files, you can add your new compiled `lua` files into `patch_06\built\levels\my_new_level\scripts\main.lc`{.orange-code}.
 The patch size is of course not limited, however if you modify already existing `lua` files, do not forget to backup them before, and that the code into them **does not concatenate** to the original file, it **overwrite totally the file**. So each time you modify a lua file, remember you have to **compile it** into `luac` format (`.lc`{.orange-code} format)
-So globally, this technic work for these modifications[:](https://www.youtube.com/watch?v=dQw4w9WgXcQ){.hidden-link}`:`{.hidden}
+So globally, this technic work for these modifications[:](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 * `Data` (`.dat`{.orange-code}) files - Contain generally textures, models, map regions, etc...
 * `Script` (`.lc`{.orange-code}) files - Compiled lua script files. Globally they are used for every event stuff in the game, and weapons events.
 * `Tables` (`.csv`{.orange-code}) files - Tables that contains statistics of weapons. Changing them change also the weapon's stats.
