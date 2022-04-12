@@ -2,8 +2,8 @@
 title: Medius (SCE-RT)
 description: 
 published: true
-date: 2022-03-06T00:21:48.156Z
-tags: 
+date: 2022-04-12T09:43:27.337Z
+tags: modding, network, online, api, authentication
 editor: markdown
 dateCreated: 2022-03-06T00:12:15.278Z
 ---
