@@ -2,7 +2,7 @@
 title: Wrench Editor
 description: 
 published: true
-date: 2022-04-12T06:41:01.448Z
+date: 2022-04-12T09:34:35.595Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T15:43:32.492Z
@@ -61,6 +61,11 @@ Clone or download [Wrench Editor](https://github.com/chaoticgd/wrench/) on GitHu
 Go into a folder, **right click**>**open terminal here** and execute `git clone https://github.com/chaoticgd/wrench.git --recursive`.
 If it don't works, verify that **[Git](https://git-scm.com/ "https://git-scm.com/")** is installed on your computer. If not, download and install it.
 `--recursive` command clone also the dependencies, and in this it's essential if you don't get them by using the "**Download ZIP**" button.
+The cloning can take a while.
+While cloning, it should look like this. If it's not so long or it don't load, retry or/and verify the case and if you put `--recursive` at the end.
+
+![git_cloning.png](/git_cloning.png)
+
 ## Fifth step
 When it's cloned or copied, open **Visual Studio** and click **Open a local folder**, then navigate to the **wrench-master** folder you just unzipped and when you're in, just click **Open**.
 Now open a terminal by clicking on the top-corner third button **Display**>**Terminal**
@@ -71,4 +76,17 @@ Building: Into the newly created terminal, execute the command `cmake .`, it wil
 Now, a `wrench.sln` **Visual Studio solution** should appear. just click it, it will re-open the current **Visual Studio window**.
 
 ### Building using command lines
-Into the folder, execute the command **`cmake --build . --config BUILD_TYPE`**, **important**, replace `BUILD_TYPE` with one of the following options: 
+Into the folder, execute the command **`cmake --build . --config BUILD_TYPE`**; **Important**, replace `BUILD_TYPE` with one of the following options:
+- `Debug` : very slow - not recommended
+- `Release` : no symbols - not recommended
+- ⭐ `RelWithDebInfo` : release but has symbols - recommended
+- `MinSizeRel` : release but minimal size (?) - not recommended (?)
+
+### Building using Visual Studio generator
+On the **Visual Studio** page - If you didn't opened the `wrench.sln` file, then do it - **right click** on **wrench** into the **Solution Explorer** and click **Set as Startup Project**.
+> You should now be able to build and debug wrench using the toolbar controls and all Visual Studio features.
+\- chaoticgd
+>
+Then, click the **Generate button**
+
+For more informations, go to the **[original GitHub Project page](https://github.com/chaoticgd/wrench/)**, and if you have questions or want to report errors, go to the **[issues page](https://github.com/chaoticgd/wrench/issues)**.
