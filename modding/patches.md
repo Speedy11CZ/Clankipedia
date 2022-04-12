@@ -2,7 +2,7 @@
 title: Patches
 description: All you need to know about modding using patch system of Ratchet & Clank (FFA to ItN)
 published: true
-date: 2022-04-12T23:31:53.564Z
+date: 2022-04-12T23:34:01.658Z
 tags: information, installing, modding, online, patches
 editor: markdown
 dateCreated: 2022-04-12T10:04:47.681Z
@@ -49,7 +49,7 @@ For example, for our patch it should look like this: `/dev_hdd000/game/BCES00195
 ## ⚠️ - Warning!
 Before launching your game, disable the game update checking into your **CFW** (not sure for HFW, please check), or your update will be deleted and overwrote by an older one. If the game you mod is online, **be extremely careful** and disable the **Sony PSN Logging** on your **CFW**, they are sent to Sony and sometime it happens that players get banned... It's rare but be careful.
 
-## What can I do with patches ?
+## Patches limitations
 With patches, you can modify a lot of files, however there are rules:
 - The patch **have to respect** the game folders architecure
 - You cannot put `.psarc`{.orange-code} files into a patch, first it's useless, and the PlayStation will not be able to read it. (It can read only specific folders with specific files)
