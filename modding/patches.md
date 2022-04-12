@@ -2,7 +2,7 @@
 title: Patches
 description: Here's a "tutorial" about how works patches and how to use them  when it is possible.
 published: true
-date: 2022-04-12T14:29:47.023Z
+date: 2022-04-12T15:44:06.847Z
 tags: information, modding, online, patches
 editor: markdown
 dateCreated: 2022-04-12T10:04:47.681Z
@@ -26,6 +26,15 @@ For example, if I want to modify the **jungle_ruin** level in **FFA**, I'll have
 `USRDIR\built\levels\jungle_ruin\`{.orange-code} <= *here, there's `level_uncached.psarc`{.orange-code} for example*
 
 ## What can I change into ?
-Technically, almost everything. Adding a map is simple and hard, duplicate a map into your patch folder, for example like this: `patch_06\built\levels\my_new_level`{.orange-code}. Do not forget that you won't be able to load that level without coding. Anyway, you can now modify the level with the **[LombaxToes Editor](../tools/lteditor)**.
-You can also change code, by replacing old `.lc` files with new `.lc` files.
+Technically, almost everything. Adding a map is simple and hard, duplicate a map (<kbd>CTRL</kbd> + <kbd>C</kbd>) into your patch folder (<kbd>CTRL</kbd> + <kbd>V</kbd>), for example like this: `patch_06\built\levels\my_new_level`{.orange-code}. Do not forget that you won't be able to load that level without coding. Anyway, you can now modify the level with the **[LombaxToes Editor](../tools/lteditor)**.
+You can also change code, by replacing old `.lc` files with new `.lc` files. The code have to respect the functions used in other `lua` files.
+To change script files, you can add your new compiled `lua` files into `patch_06\built\levels\my_new_level\scripts\main.lc`{.orange-code}.
+The patch size is of course not limited, however if you modify already existing `lua` files, do not forget to backup them before, and that the code into them **does not concatenate** to the original file, it **overwrite totally the file**. So each time you modify a lua file, remember you have to **compile it** into `luac` format (`.lc`{.orange-code} format)
+So globally, this technic work for these modifications[:](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+* `Data` (`.dat`{.orange-code}) files - Contain generally textures, models, map regions, etc...
+* `Script` (`.lc`{.orange-code}) files - Compiled lua script files. Globally they are used for every event stuff in the game, and weapons events.
+* `Tables` (`.csv`{.orange-code}) files - Tables that contains statistics of weapons. Changing them change also the weapon's stats.
+* `Packages` (`.pkg`{.orange-code}) files - These are archives too, they can contain **voicelines**, **environnement sounds**, **weapons sounds**, **game musics**...
 
+## How can I install a patch ?
+To install a patch, you need first a **custom firmware** or a **hybrid firmware**. The most famous are **[Cobra CFW](https://www.psx-place.com/threads/ps3xploit-flash-writer-aka-cfw-installer-supports-all-ps3-fat-models-most-slim-models.16876/)** ([here](https://www.youtube.com/watch?v=QldjWRGH0wA&ab_channel=MrMario2011) is a tutorial), and **[HEN HFW](http://ps3xploit.com/)** ([here](https://www.youtube.com/watch?v=xGS_Ryx_7r8&ab_channel=MrMario2011) is a tutorial)
