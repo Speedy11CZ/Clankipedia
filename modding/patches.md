@@ -2,7 +2,7 @@
 title: Patches
 description: All you need to know about modding using patch system of Ratchet & Clank (FFA to ItN)
 published: true
-date: 2022-04-12T22:36:18.556Z
+date: 2022-04-12T23:31:53.564Z
 tags: information, installing, modding, online, patches
 editor: markdown
 dateCreated: 2022-04-12T10:04:47.681Z
@@ -46,5 +46,16 @@ go to `/dev_usb000/`{.orange-code}, search your `patch_XX.psarc`{.orange-code} f
 Into the game folder, find `USRDIR/data`{.orange-code} folder, and drop the file in.
 For example, for our patch it should look like this: `/dev_hdd000/game/BCES001954/USRDIR/data/patch_06.psarc`{.orange-code}
 
-# ⚠️ - Warning!
+## ⚠️ - Warning!
 Before launching your game, disable the game update checking into your **CFW** (not sure for HFW, please check), or your update will be deleted and overwrote by an older one. If the game you mod is online, **be extremely careful** and disable the **Sony PSN Logging** on your **CFW**, they are sent to Sony and sometime it happens that players get banned... It's rare but be careful.
+
+## What can I do with patches ?
+With patches, you can modify a lot of files, however there are rules:
+- The patch **have to respect** the game folders architecure
+- You cannot put `.psarc`{.orange-code} files into a patch, first it's useless, and the PlayStation will not be able to read it. (It can read only specific folders with specific files)
+	- Tolerated / readable formats:
+    `.pkg`{.orange-code} packages - sounds archive for example
+		`.lc`{.orange-code} compiled scripts - lua compiled code
+		`.dat`{.orange-code} textures, models & instructions - archives ?
+   	`.BIN`{.orange-code} the only known file with this extension is `EBOOT.BIN`
+* You cannot just put the new code like this, convert it to `.lc`{.orange-code} file and drop it into your file. You have to continue the already existing code and then put it in the patch.
