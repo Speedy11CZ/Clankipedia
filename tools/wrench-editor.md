@@ -1,9 +1,9 @@
 ---
 title: Wrench Editor
-description: 
+description: Wrench is a level editor and viewer for the PS2 Ratchet & Clank games working from Ratchet & Clank 1 to Ratchet & Clank: Deadlocked.
 published: true
-date: 2022-04-12T09:34:35.595Z
-tags: 
+date: 2022-04-12T09:40:59.636Z
+tags: level editor, modding
 editor: markdown
 dateCreated: 2022-03-05T15:43:32.492Z
 ---
@@ -87,6 +87,6 @@ On the **Visual Studio** page - If you didn't opened the `wrench.sln` file, then
 > You should now be able to build and debug wrench using the toolbar controls and all Visual Studio features.
 \- chaoticgd
 >
-Then, click the **Generate button**
+Then, click the **Generate button**. Of course, as said higher, you can select multiple build versions. **chaoticgd** recommend using the `RelWithDebInfo` build method, so you should do so.
 
 For more informations, go to the **[original GitHub Project page](https://github.com/chaoticgd/wrench/)**, and if you have questions or want to report errors, go to the **[issues page](https://github.com/chaoticgd/wrench/issues)**.
