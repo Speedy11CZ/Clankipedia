@@ -1,9 +1,9 @@
 ---
 title: DNAS
-description: 
+description: DNAS or Dynamic Network Authentication System is a proprietary authentication system created by Sony Computer Entertainment Inc.
 published: true
-date: 2022-04-12T09:45:34.171Z
-tags: authentication, network, errors
+date: 2022-04-12T09:46:25.387Z
+tags: authentication, errors, network
 editor: markdown
 dateCreated: 2022-03-05T00:48:38.418Z
 ---
