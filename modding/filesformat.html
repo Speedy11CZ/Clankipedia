@@ -2,11 +2,75 @@
 title: File formats
 description: Repertoriated files formats and their assignation in the games files.
 published: false
-date: 2022-04-12T22:07:12.958Z
-tags: games, information, modding, files
+date: 2022-04-12T22:30:12.974Z
+tags: files, games, information, modding
 editor: ckeditor
 dateCreated: 2022-04-12T22:06:51.416Z
 -->
 
-<h1 class="toc-header" id="files-types"> Files types</h1>
+<h1>Files types</h1>
 <p>There's a lot of file types/format in the files of the <strong>Ratchet &amp; Clank</strong> games. Here are the currently repertoriated files formats and what they are used to + their modability.</p>
+<p>&nbsp;</p>
+<figure class="table" style="text-align:center;">
+  <table>
+    <thead>
+      <tr>
+        <th>
+          <p style="text-align:center;">File extension</p>
+        </th>
+        <th>
+          <p style="text-align:center;">File extension full name</p>
+        </th>
+        <th>
+          <p style="text-align:center;">Type</p>
+        </th>
+        <th>
+          <p style="text-align:center;">Description / utility</p>
+        </th>
+        <th>
+          <p style="text-align:center;">Moddable using <a href="/modding/patches">patches</a></p>
+        </th>
+        <th>
+          <p style="text-align:center;">Supported by software</p>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>.psarc</code></td>
+        <td>PlayStation Archive</td>
+        <td>Global archive</td>
+        <td>Playstation readable archives used<br>to contain almost everything, like<br>scripts, models, textures, packages…</td>
+        <td>
+          <p style="text-align:center;">❌<br>Patches cannot contain<br><code>.psarc</code>. (<a href="/modding/filesformat">patches</a> page)</p>
+        </td>
+        <td>
+          <p style="text-align:center;"><a href="https://github.com/periander/PSArcTool"><strong>PSArcTool</strong></a>,<br><a href="https://www.psx-place.com/resources/ps3-game-extractor.824/"><strong>PS3GameExtractor</strong></a></p>
+        </td>
+      </tr>
+      <tr>
+        <td><code>.pkg</code></td>
+        <td>PlayStation Package</td>
+        <td>Sound archive</td>
+        <td>Playstation readable archive,<br>generally used to store sounds,<br>voicelines, musics, and other.</td>
+        <td>
+          <p style="text-align:center;">✅<br>Patches can contain <code>.pkg</code><br>to modify sounds &amp; musics</p>
+        </td>
+        <td>
+          <p style="text-align:center;"><strong>CONTRIBUTOR</strong><br><strong>NEEDED</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td><code>.lc</code></td>
+        <td>Compiled Lua Script</td>
+        <td>Script file</td>
+        <td>Script file, used everywhere in every<br>Ratchet &amp; Clank games.</td>
+        <td>&nbsp;</td>
+        <td>
+          <p style="text-align:center;"><a href="https://github.com/HansWessels/unluac"><strong>Unluac</strong></a>,<br><strong>Lua Bytecode</strong></p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>&nbsp;</p>
