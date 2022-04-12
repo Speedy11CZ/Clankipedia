@@ -2,7 +2,7 @@
 title: Wrench Editor
 description: 
 published: true
-date: 2022-04-11T18:40:26.182Z
+date: 2022-04-12T06:28:09.519Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T15:43:32.492Z
@@ -44,8 +44,18 @@ Install [CMake](https://cmake.org/download/) in any recent version you want, ins
 [![cmake.png](/cmake.png "Download the version you need or you want. Format too.")](https://cmake.org/download/)
 
 ## Third step
-On the main screen of the Visual Studio installer, install a new Visual Studio version (2017 or later), and then check the "**.NET DEKSTOP Dev**" check box. This is a kit for Desktop Apps development in **C#** (CSharp) and **F#** (FSharp) *(and also Visual Basic/VB)*.
+On the main screen of the Visual Studio installer, install a new Visual Studio version (2017 or later), and then check the "**C++ Desktop Dev**" check box. This is a kit for Desktop Apps development in **C++**. You should also **click on ".NET Desktop Dev"** if you downloaded the classic version with the button "**Visual Studio 2022**", it's a devkit for **C#** and **F#** apps, even if **wrench** is a **C++** program, the other modding tools are globally made in **C#** too.
 When the download is done, launch the version and check if CMake is installed into the Visual Studio console. If not, try to reinstall CMake.
 ## Fourth step
 Clone or download [Wrench Editor](https://github.com/chaoticgd/wrench/) on GitHub. Put it in a folder where you'll easily find it again.
-When download is done, open the visual studio solution. A Visual Studio page should appear.
+
+[![github_clone.png](/github_clone.png "Go on the Chaoticgd's repo")](https://github.com/chaoticgd/wrench/)
+
+- You can take one of these solution:
+  1) This is to clone the repo and stay updated (you will have to rebuild each new version). It works with **[GitHub Desktop](https://desktop.github.com/ "https://desktop.github.com/")**
+  2) This is to clone the repo and stay update BUT will open directly **Visual Studio** instead of **GitHub Desktop**.
+  3) This will just give you a copy of the current version of the repo. **We will take this button for example here**. Of course, it's a zip, so you'll unzip it with **[7-Zip](https://www.7-zip.org/download.html "https://www.7-zip.org/download.html")**.
+  
+## Fifth step
+When it's cloned or copied, open **Visual Studio** and click **Open a local folder**, then navigate to the **wrench-master** folder you just unzipped and when you're in, just click **Open**.
+Now open a terminal by clicking on the top-corner third button "**Display**"
