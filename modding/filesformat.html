@@ -2,7 +2,7 @@
 title: Files formats
 description: Repertoriated files formats and their assignation in the games files.
 published: true
-date: 2022-04-12T22:38:15.305Z
+date: 2022-04-12T23:18:56.640Z
 tags: files, games, information, modding
 editor: ckeditor
 dateCreated: 2022-04-12T22:06:51.416Z
@@ -41,44 +41,32 @@ dateCreated: 2022-04-12T22:06:51.416Z
         <td>PlayStation Archive</td>
         <td>Global archive</td>
         <td>Playstation readable archives used<br>to contain almost everything, like<br>scripts, models, textures, packages…</td>
-        <td>
-          <p style="text-align:center;">❌<br>Patches cannot contain<br><code>.psarc</code>. (<a href="/modding/filesformat">patches</a> page)</p>
-        </td>
-        <td>
-          <p style="text-align:center;"><a href="https://github.com/periander/PSArcTool"><strong>PSArcTool</strong></a>,<br><a href="https://www.psx-place.com/resources/ps3-game-extractor.824/"><strong>PS3GameExtractor</strong></a></p>
-        </td>
+        <td>❌<br>Patches cannot contain<br><code>.psarc</code>. (<a href="/modding/filesformat"><strong>patches</strong></a> page)</td>
+        <td><a href="https://github.com/periander/PSArcTool"><strong>PSArcTool</strong></a>,<br><a href="https://www.psx-place.com/resources/ps3-game-extractor.824/"><strong>PS3GameExtractor</strong></a></td>
       </tr>
       <tr>
         <td><code>.pkg</code></td>
         <td>PlayStation Package</td>
         <td>Sound archive</td>
         <td>Playstation readable archive,<br>generally used to store sounds,<br>voicelines, musics, and other.</td>
-        <td>
-          <p style="text-align:center;">✅<br>Patches can contain <code>.pkg</code><br>to modify sounds &amp; musics</p>
-        </td>
-        <td>
-          <p style="text-align:center;"><strong>CONTRIBUTOR</strong><br><strong>NEEDED</strong></p>
-        </td>
+        <td>✅<br>Patches can contain <code>.pkg</code><br>to modify sounds &amp; musics</td>
+        <td><strong>CONTRIBUTOR</strong><br><strong>NEEDED</strong></td>
       </tr>
       <tr>
         <td><code>.lc</code></td>
         <td>Compiled Lua Script</td>
         <td>Script file</td>
         <td>Script file, used everywhere in every<br>Ratchet &amp; Clank games.</td>
-        <td>&nbsp;</td>
-        <td>
-          <p style="text-align:center;"><a href="https://github.com/HansWessels/unluac"><strong>Unluac</strong></a>,<br><strong>Lua Bytecode</strong></p>
-        </td>
+        <td>&nbsp;✅<br>Patches can contain <code>.lc</code><br>files (see <a href="/modding/patches"><strong>patches</strong></a> page)</td>
+        <td><a href="https://github.com/HansWessels/unluac"><strong>Unluac</strong></a>,<br><strong>Lua Bytecode</strong></td>
       </tr>
       <tr>
         <td><code>.BIN</code></td>
         <td>Binary files</td>
         <td>Script file</td>
         <td>Generally, only the EBOOT has this<br>file extension type. This is an<br>important script file that define<br>a lot of rules in the lua code.</td>
-        <td>
-          <p style="text-align:center;">✅<br>Patches can contain <code>.BIN</code><br>to change or add game<br>rules into the lua</p>
-        </td>
-        <td>&nbsp;</td>
+        <td>✅<br>Patches can contain <code>.BIN</code><br>to change or add game<br>rules into the lua</td>
+        <td><a href="https://github.com/NationalSecurityAgency/ghidra/releases"><strong>Ghidra</strong></a>, <a href="https://mh-nexus.de/en/hxd/"><strong>HxD</strong></a></td>
       </tr>
     </tbody>
   </table>
