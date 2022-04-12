@@ -2,8 +2,8 @@
 title: Patches
 description: All you need to know about modding using patch system of Ratchet & Clank (FFA to ItN)
 published: true
-date: 2022-04-12T16:46:16.707Z
-tags: information, modding, online, patches, installing
+date: 2022-04-12T22:36:18.556Z
+tags: information, installing, modding, online, patches
 editor: markdown
 dateCreated: 2022-04-12T10:04:47.681Z
 ---
@@ -16,7 +16,7 @@ Into the **game root folder** you should see something like `USRDIR`. This folde
 ## Where can I find it ?
 For **Ratchet & Clank** games, the patches are only available **natively** on **Ratchet & Clank: Full Frontal Assault**, **Ratchet & Clank: All 4 One** and **Ratchet & Clank: Into the Nexus**.
 The **patches** are available in the **data** subfolder (`NPUA00001\USRDIR\data`{.orange-code}) for **Ratchet & Clank** games, the patches are globally `patch_XX.psarc`{.orange-code} (`XX` are numbers from `00` to `99`).
-**For more informations on the [PSArc files](./modding/filesformat#psarc), go on its page.**
+**For more informations on the [PSArc files](./filesformat#psarc), go on its page.**
 The `.psarc`{.orange-code} archives contain only files which have to change. It means that the `patch_XX.psarc`{.orange-code} archive make every files that are into it overwrite `global_uncached.psarc`{.orange-code} archive files.
 
 ## How's the patch architecture ?
