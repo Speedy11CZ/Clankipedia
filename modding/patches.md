@@ -2,7 +2,7 @@
 title: Patches
 description: Here's a "tutorial" about how works patches and how to use them  when it is possible.
 published: true
-date: 2022-04-12T14:28:24.361Z
+date: 2022-04-12T14:29:47.023Z
 tags: information, modding, online, patches
 editor: markdown
 dateCreated: 2022-04-12T10:04:47.681Z
@@ -26,5 +26,6 @@ For example, if I want to modify the **jungle_ruin** level in **FFA**, I'll have
 `USRDIR\built\levels\jungle_ruin\`{.orange-code} <= *here, there's `level_uncached.psarc`{.orange-code} for example*
 
 ## What can I change into ?
-Technically, almost everything. Adding a map is simple and hard, duplicate a map into your patch folder, for example like this: `patch_06\built\levels\my_new_level`{.orange-code}. Do not forget that you won't be able to load that level without coding. Anyway, you can now modify the level with the **[LombaxToes Editor](./tools/lteditor)**.
+Technically, almost everything. Adding a map is simple and hard, duplicate a map into your patch folder, for example like this: `patch_06\built\levels\my_new_level`{.orange-code}. Do not forget that you won't be able to load that level without coding. Anyway, you can now modify the level with the **[LombaxToes Editor](../tools/lteditor)**.
+You can also change code, by replacing old `.lc` files with new `.lc` files.
 
