@@ -1,8 +1,8 @@
 ---
 title: Wrench Editor
-description: Wrench is a level editor and viewer for the PS2 Ratchet & Clank games working from Ratchet & Clank 1 to Ratchet & Clank: Deadlocked.
+description: Wrench is a level editor and viewer for the PS2 Ratchet & Clank games working from Ratchet & Clank 1 to Ratchet & Clank: Deadlocked. Created by chaoticgd.
 published: true
-date: 2022-04-12T09:40:59.636Z
+date: 2022-04-12T09:42:21.548Z
 tags: level editor, modding
 editor: markdown
 dateCreated: 2022-03-05T15:43:32.492Z
