@@ -2,7 +2,7 @@
 title: Patches
 description: All you need to know about modding using patch system of Ratchet & Clank (FFA to ItN)
 published: true
-date: 2022-04-14T12:54:11.046Z
+date: 2022-04-14T12:55:47.281Z
 tags: information, installing, modding, online, patches
 editor: markdown
 dateCreated: 2022-04-12T10:04:47.681Z
@@ -65,3 +65,4 @@ All the games using a patch system, however only the ones that download them usi
 - Ratchet & Clank: All 4 One; `NPEA00356`, `BCES01141`, `NPUA80695`, `BCUS98175`
 - Ratchet & Clank: Full Frontal Assault / Q-Force; `NPEA00378`, `BCES01594`, `NPUA80642`, `BCUS98380`
 - Ratchet & Clank: Into the Nexus / NEXUS; `NPEA00457`, `BCES01908`, `BCES01949`, `NPUA80908`, `BCUS99245`
+- Ratchet & Clank: A Crack in Time; `BCES00511`, `BCES00726`, `BCUS98124` - ⚠️ This game don't use the same patch system, and the patches are only for disc versions of the game.
