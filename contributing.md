@@ -1,11 +1,11 @@
 ---
 title: Contributing
-description: 
+description: Details on contributing new content to the wiki.
 published: true
-date: 2022-03-11T12:09:04.569Z
+date: 2023-03-27T23:39:07.120Z
 tags: 
 editor: markdown
-dateCreated: 2022-03-11T12:06:23.662Z
+dateCreated: 2023-03-27T22:34:08.514Z
 ---
 
 # Contributing
