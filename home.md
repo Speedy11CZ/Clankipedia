@@ -1,11 +1,11 @@
 ---
-title: Clankipedia
+title: Home
 description: 
 published: true
-date: 2022-03-11T13:26:54.406Z
+date: 2023-03-27T23:38:13.246Z
 tags: 
 editor: markdown
-dateCreated: 2022-03-04T23:40:50.679Z
+dateCreated: 2023-03-27T22:34:10.528Z
 ---
 
 # Getting Started
