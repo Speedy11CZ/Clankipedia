@@ -1,11 +1,11 @@
 ---
 title: Patches
-description: All you need to know about modding using patch system of Ratchet & Clank (FFA to ItN)
+description: All you need to know about modding using patch system of Ratchet & Clank (FFA to ItN).
 published: true
-date: 2022-04-14T12:55:47.281Z
+date: 2023-03-27T23:57:21.438Z
 tags: information, installing, modding, online, patches
 editor: markdown
-dateCreated: 2022-04-12T10:04:47.681Z
+dateCreated: 2023-03-27T22:34:16.314Z
 ---
 
 # How work patches ?
