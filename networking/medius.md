@@ -1,11 +1,11 @@
 ---
 title: Medius (SCE-RT)
-description: 
+description: Medius (SCE-RT) was a networking engine solution that most top-title games would have implemented for their multiplayer games as the underlying protocol.
 published: true
-date: 2022-04-12T09:43:27.337Z
-tags: modding, network, online, api, authentication
+date: 2023-03-27T23:37:48.933Z
+tags: api, authentication, modding, network, online
 editor: markdown
-dateCreated: 2022-03-06T00:12:15.278Z
+dateCreated: 2023-03-27T22:34:20.364Z
 ---
 
 # Medius (SCE-RT)
