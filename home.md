@@ -1,8 +1,8 @@
 ---
 title: Home
-description: 
+description: The most important informations to get you started.
 published: true
-date: 2023-03-27T23:38:13.246Z
+date: 2023-03-27T23:57:03.290Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-27T22:34:10.528Z
